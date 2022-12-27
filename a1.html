@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>好家伙</title>
+    <link rel="stylesheet" href="css/all2.css">
+    <style>
+        .list{width: 100%;display: none;margin:20px 0 0 0;}
+        #list1{display: block;}
+        label{font-weight: bold;}
+        .layui-input-block {
+            margin-left: 0;
+        }
+        @-webkit-keyframes masked-animation {
+            100% {
+                background-position:-100% 0;
+            }
+        }
+    </style>
+</head>
+
+
+
+<body style="background: url(img/88.png) center 0 no-repeat;">
+<script src="layui/layui.js"></script>
+<div style="width:80%; margin:40px auto;">
+
+    <div class="layui-progress layui-progress-big" lay-filter="demo" lay-showPercent="true">
+        <div class="layui-progress-bar layui-bg-blue" lay-percent="1%"></div>
+    </div>
+
+    <div>
+        <div class="list" id="list1">
+            <label class="layui-font-20">1:怎么防范校园套路贷”的发生?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh1" name="wh1" value="a" title="A.妥善保管个人身份证，不轻易对外泄露自己的家庭住址.宿舍住址.父母联系电话等关键信息及个人隐私">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh1" name="wh1" value="b" title="B.不能贪图小利而帮助别人“刷单”或提供贷款担保">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh1" name="wh1" value="c" title="C.要保持一颗不攀比.不虚荣的心和理智清醒的头脑,不要贪图小便宜">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh1" name="wh1" value="d" title="D.要听信校园贷的宣传，不要被花言巧语蒙蔽">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list2">
+            <label class="layui-font-20">2:李某接到短信,称其参与《爸爸去哪》栏目活动中了大奖，缴纳税金后即可领奖，正确的做法是?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh2" name="wh2" value="a" title="A.与对方联系，并按提示汇入款项,等通知去领奖">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh2" name="wh2" value="b" title="B.查询短信电话，确认奖中奖再付款">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh2" name="wh2" value="c" title="C.对短信置之不理，同时提醒同伴防范">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh2" name="wh2" value="d" title="D.向公安机关反映">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list3">
+            <label class="layui-font-20">3:你认为很多学生陷入校园套路贷，哪个不是其中的原因?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+
+                        <input type="radio" lay-filter="wh3" name="wh3" value="a" title="A.缺乏理财意识">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh3" name="wh3" value="b" title="B.胆小怕被曝光">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh3" name="wh3" value="c" title="C.经济不能满足其需求">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh3" name="wh3" value="d" title="D.正义有担当意识">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list4">
+            <label class="layui-font-20">4:某网站吸纳会员时要求交纳相应会费，交纳后网站就会给购买者一个会员编号和一个会员昵称，该购买者就正式成为网站会员。成为会员后，就可自由发展下线，收取提成，形成五五分成的上下级关系。这种行为属于?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh4" name="wh4" value="a" title="A.网络传销">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh4" name="wh4" value="b" title="B.网络钓鱼">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh4" name="wh4" value="c" title="C.网络攻击">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh4" name="wh4" value="d" title="D.网络诈骗">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list5">
+            <label class="layui-font-20">5:某同学收到一封邮件，说自己的 qq号码存在异常，需要紧急处理，点开网站后需要输入 qq号、密码，以下最合理的做法是?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh5" name="wh5" value="a" title="A.qq 号码存在异常，应立即按邮件要求处理">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh5" name="wh5" value="b" title="B.qq 密码设置复杂，没有安全问题，不予理睬">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh5" name="wh5" value="c" title="C.检查邮件标题是否为蓝色，如果不是蓝色标题，则可确定这封邮件为仿冒官方的盗号邮件，可直接举报">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh5" name="wh5" value="d" title="D.冻结此 qq，不再使用">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list6">
+            <label class="layui-font-20">6:某人接到短信，称其参与某综艺节目活动中了大奖，缴纳税金侯即可领奖，正确的做法是?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh6" name="wh6" value="a" title="A.与对方联系，并按提示汇款，等通知去领奖">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh6" name="wh6" value="b" title="B.规划中奖后如何庆祝">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh6" name="wh6" value="c" title="C.对短信置之不理，同时提醒同伴防范">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh6" name="wh6" value="d" title="D.向身边人炫耀并邀请其一起参与">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list7">
+            <label class="layui-font-20">7:收到手机短信代办大额度信用卡，透支金额 5 万元起。有需要的请联系王经理13000001234?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh7" name="wh7" value="a" title="A.打电话去问问，手续费贵就算了">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh7" name="wh7" value="b" title="B.急着用钱诶，我要办一张 ">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh7" name="wh7" value="c" title="C.骗子，不理">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list8">
+            <label class="layui-font-20">8:暑假,小鱼正在家里上网聊 QQ,这时有个陌生人发来一条信息轻松兼职,每天工作 2小时,日入 300
+                元,小鱼想反正在家也是闲着,找点事做也好,于是询问对方如何兼职。对方说兼职内容是帮淘宝商户刷信誉,只要购买他所发链接的商品,确认收货后给好评即可,操作简单,每单给
+                5 元钱手续费,会同购买商品钱一同打回到小鱼卡上。小鱼应该?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh8" name="wh8" value="a" title="A.不信,是骗子">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh8" name="wh8" value="b" title="B.先买个小额的商品试试">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh8" name="wh8" value="c" title="C.反正闲着也是闲着,就按照他说的做吧">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh8" name="wh8" value="d" title="D.直接答应 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list9">
+            <label class="layui-font-20">9:小文接到一个尾号为 110的固定电话,电话那头自称是杭州市公安局禁毒支队的民警,说小文的包裹里有冰毒,涉嫌运输毒品,购买这个包裹的银行卡涉嫌犯罪,必须先把卡内的资金转到警方的安全账户内,等案件调查清楚再退还给小文,小文应该?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh9" name="wh9" value="a" title="A.将.钱转到自己的别的银行卡">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh9" name="wh9" value="b" title="B.这个骗局有点老,骗子闪开">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh9" name="wh9" value="c" title="C.到就近派出所问明情况再说">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh9" name="wh9" value="d" title="D.将钱转到对方给的账户">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list" id="list10">
+            <label class="layui-font-20">10:公检法机关办案会当面向涉案人出示证件或相关法律文书，不会通过电话、QQ、传真、网页等形式办案?</label>
+            <div class="layui-form">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh10" name="wh10" value="a" title="A:对">
+                    </div>
+                    <div class="layui-input-block">
+                        <input type="radio" lay-filter="wh10" name="wh10" value="b" title="B:错">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+
+
+<!--超链接--><a class="layui-btn layui-btn-normal layui-col-md4 layui-col-md-offset4" href="index.html" style="color:white">返回首页</a>
+</body>
+
+
+
+<script>
+    layui.use(['layer', 'element','form','jquery'], function(){
+        var $ = layui.jquery,
+            layer = layui.layer,
+            element = layui.element,
+            form = layui.form;
+        form.on('radio(wh1)', function(data){
+            if (data.value == 'd'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list1').hide();
+                        $('#list2').show();
+                        layer.close(index);
+                        element.progress('demo', '10%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:D",
+                    yes: function (index,layero){
+                        $('#list1').hide();
+                        $('#list2').show();
+                        layer.close(index);
+                        element.progress('demo', '10%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh2)', function(data){
+            if (data.value == 'c'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list2').hide();
+                        $('#list3').show();
+                        layer.close(index);
+                        element.progress('demo', '20%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:C",
+                    yes: function (index,layero){
+                        $('#list2').hide();
+                        $('#list3').show();
+                        layer.close(index);
+                        element.progress('demo', '20%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh3)', function(data){
+            if (data.value == 'd'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list3').hide();
+                        $('#list4').show();
+                        layer.close(index);
+                        element.progress('demo', '30%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:D",
+                    yes: function (index,layero){
+                        $('#list3').hide();
+                        $('#list4').show();
+                        layer.close(index);
+                        element.progress('demo', '30%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh4)', function(data){
+            if (data.value == 'a'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list4').hide();
+                        $('#list5').show();
+                        layer.close(index);
+                        element.progress('demo', '40%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:A",
+                    yes: function (index,layero){
+                        $('#list4').hide();
+                        $('#list5').show();
+                        layer.close(index);
+                        element.progress('demo', '40%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh5)', function(data){
+            if (data.value == 'c'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list5').hide();
+                        $('#list6').show();
+                        layer.close(index);
+                        element.progress('demo', '50%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:C。",
+                    yes: function (index,layero){
+                        $('#list5').hide();
+                        $('#list6').show();
+                        layer.close(index);
+                        element.progress('demo', '50%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh6)', function(data){
+            if (data.value == 'c'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list6').hide();
+                        $('#list7').show();
+                        layer.close(index);
+                        element.progress('demo', '60%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:C",
+                    yes: function (index,layero){
+                        $('#list6').hide();
+                        $('#list7').show();
+                        layer.close(index);
+                        element.progress('demo', '60%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh7)', function(data){
+            if (data.value == 'c'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list7').hide();
+                        $('#list8').show();
+                        layer.close(index);
+                        element.progress('demo', '70%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:C",
+                    yes: function (index,layero){
+                        $('#list7').hide();
+                        $('#list8').show();
+                        layer.close(index);
+                        element.progress('demo', '70%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh8)', function(data){
+            if (data.value == 'a'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list8').hide();
+                        $('#list9').show();
+                        layer.close(index);
+                        element.progress('demo', '80%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:A",
+                    yes: function (index,layero){
+                        $('#list8').hide();
+                        $('#list9').show();
+                        layer.close(index);
+                        element.progress('demo', '80%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh9)', function(data){
+            if (data.value == 'c'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'下一题',
+                    yes: function (index,layero){
+                        $('#list9').hide();
+                        $('#list10').show();
+                        layer.close(index);
+                        element.progress('demo', '90%');
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'下一题',
+                    content:"正确答案是:C",
+                    yes: function (index,layero){
+                        $('#list9').hide();
+                        $('#list10').show();
+                        layer.close(index);
+                        element.progress('demo', '90%');
+                    }
+                })
+            }
+
+        });
+        form.on('radio(wh10)', function(data){
+            if (data.value == 'a'){
+                layer.open({
+                    title:'回答正确',
+                    btn:'结束',
+                    content:"测试结束！",
+                    yes: function (index,layero){;
+                        layer.close(index);
+                        element.progress('demo', '100%');
+                        window.location.href="index.html";
+                    }
+                })
+            }else{
+                layer.open({
+                    btn:'结束',
+                    content:"正确答案是:A",
+                    yes: function (index,layero){
+                        layer.close(index);
+                        element.progress('demo', '100%');
+                        window.location.href="index.html";
+                    }
+                })
+            }
+
+        });
+    });
+</script>
+</html>
